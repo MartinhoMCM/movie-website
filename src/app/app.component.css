@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #000;
+    margin-left: 20px;
+}
+.container-fluid{
+    background-color: #000;
+}
+.navbar-brand , .nav-item a{
+    color: #fff;
+}

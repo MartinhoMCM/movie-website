@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+#banner{
+    
+    
+    position: relative;
+    margin-top: 0px;
+    left: 60px;
+  
+}
+h1, h2, h3,h4, h5, p{
+    color: #fff;
+}
+#topic{
+    margin-top: 100px;
+}
+
+.container-fluid{
+    margin-top: 140px;
+    
+}
+#banner h1{
+    margin-top: 120px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 60;
+    
+}
+#banner h3{
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: 200;
+    font-size: 35px;
+    
+}
+.card{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.card-img-top{
+    height: 220px;
+    width: 180px;
+    border-radius: 5%;
+}
+.card-title{
+    margin-top: 20px;
+    font-weight: 180;
+    margin-left: 0px;
+}
+.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+  }
+
+
+.testimonial-group{
+    margin-top: 100px;
+}

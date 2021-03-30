@@ -1,0 +1,115 @@
+.li-item{
+    color: grey;
+    font-size: 20px;
+    padding: 0;
+}
+
+.ul{
+    padding: 0;
+    margin: 0;
+}
+.ul li{
+    list-style: none;
+    display: inline;
+    margin: 0;
+}
+
+.title{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.overview p{
+    color: #fff;
+    font-weight: 100;
+    
+ }
+ .titleMovie{
+    color: #fff;
+    font-weight: 100;
+    
+ }
+ .titleMovie ul{
+     text-align: justify;
+     color: #fff;
+     list-style: none;
+     margin-left: 0;
+     padding-left: 0;
+ }
+ .card-title{
+     height: 30px;
+     margin-bottom: 0;
+ }
+
+ .col-md-2{
+     margin-top: 40px;
+ }
+
+ .col-md-2 li{
+     color: #fff;
+     list-style: none;
+     display: inline;
+     color: grey;
+     font-size: 15px;
+ }
+ .fa-chevron-left{
+    color: grey;
+    margin-right: 4px;
+ }
+
+ .fa-bookmark{
+     color: #fff;
+     height: 200px;
+     width: 100px;
+     margin-top: 20px;
+ }
+ .fa-bookmark.selected{
+     color: red;
+ }
+ .fa-heart{
+    color: #fff;
+    height: 200px;
+    width: 100px;
+    margin-top: 20px;
+ }
+ .fa-heart.selected{
+    color: red;
+ }
+ .preferences{
+     padding: 0;
+     margin: 0;
+ }
+ .overview{
+    color: #fff;
+    margin-top: 20;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100px;
+ }
+ .icons li{
+     list-style: none;
+     display: inline;
+     padding: 0;
+     margin-right: 0px;
+     margin-left: 0px;
+ }
+#list-icons{
+    margin: 0px;
+}
+
+.overview ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#img{
+    position: relative;
+    border-radius: 50px;
+    height: 50px;
+    right:20px;
+    right: 20px;
+    top: 40px;
+    object-fit: cover;
+}

@@ -1,0 +1,19 @@
+<div class="container-fluid" style="margin-left: 20px;">
+
+    <h1 style="color: white;">Meus filmes favoritos</h1>
+
+    <div class="container-fluid testimonial-group">
+        <div class="row flex-nowrap">
+            <div *ngFor="let movie of movies; let i=index" class="col-sm-2">
+              <div class="card">
+              <!--   <img src="https://image.tmdb.org/t/p/w500/{{movie.backdrop_path}}" class="card-img-top" > -->
+                <div class="card-body" >
+                  <p class="card-title">{{i+1}} {{movie.title|uppercase}}</p>
+                  <p class="card-text">{{movie.overview}}</p>
+                </div>
+              </div>
+            </div>
+           
+        </div>
+    </div>
+</div> 
